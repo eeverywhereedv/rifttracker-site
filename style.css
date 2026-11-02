@@ -77,9 +77,9 @@ p.section-lead { color: var(--muted); font-size: 18px; margin: 0 0 40px; max-wid
 .feature h3 { margin: 0 0 8px; font-size: 18px; }
 .feature p { margin: 0; color: var(--muted); font-size: 15px; }
 
-.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
 .gallery figure { margin: 0; text-align: center; }
-.gallery .phone { max-width: 240px; margin: 0 auto 14px; }
+.gallery .phone { max-width: 220px; margin: 0 auto 14px; }
 .gallery figcaption { font-size: 15px; color: var(--muted); }
 .gallery figcaption strong { display: block; color: var(--ink); font-size: 16px; margin-bottom: 2px; }
 
@@ -103,6 +103,10 @@ footer .links { display: flex; flex-wrap: wrap; gap: 18px; margin-bottom: 18px; 
 .doc h2 { font-size: 22px; margin: 34px 0 10px; }
 .doc p, .doc li { color: var(--muted); }
 .doc-nav { background: linear-gradient(135deg, var(--night), var(--violet)); color: #fff; padding: 18px 0; }
+
+@media (max-width: 1000px) {
+    .gallery { grid-template-columns: repeat(2, 1fr); }
+}
 
 @media (max-width: 860px) {
     .hero-body { grid-template-columns: 1fr; margin-top: 36px; }
