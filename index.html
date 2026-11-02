@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RiftTracker — Riftbound collection tracker for iPhone</title>
+    <meta name="description" content="RiftTracker is a free iPhone app to track your Riftbound card collection: set completion, prices, an on-device card scanner and shareable progress.">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="wrap">
+            <nav class="nav">
+                <a class="brand" href="./"><img src="images/icon.png" alt="">RiftTracker</a>
+                <a class="lang" href="fr/" hreflang="fr" lang="fr">Français</a>
+            </nav>
+
+            <div class="hero-body">
+                <div>
+                    <h1>Your Riftbound collection, always in your pocket.</h1>
+                    <p class="lead">RiftTracker is a free iPhone app for Riftbound collectors. Track every card you own, follow your progress set by set, know what your collection is worth and add cards in seconds with the camera.</p>
+                    <span class="status">In development · coming to the App Store (iPhone, iOS 18+)</span>
+                </div>
+                <div class="hero-shot">
+                    <img class="phone" src="images/collection.jpg" alt="RiftTracker collection screen listing Riftbound sets with their completion and value">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="wrap">
+                <h2>What it does</h2>
+                <p class="section-lead">Everything a collector needs, nothing else. No account, no ads, no data leaving your phone.</p>
+                <div class="features">
+                    <div class="feature">
+                        <h3>Set completion</h3>
+                        <p>See how many cards of each set you own, in the language you collect. An optional master set mode counts standard and foil versions separately.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Binder view</h3>
+                        <p>Browse a set page by page, 3 × 3 like a real binder: owned cards in full color, missing ones as silhouettes.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Collection value</h3>
+                        <p>Market prices from Cardmarket and TCGplayer, the total value of your collection and this week's biggest gains and losses.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>On-device scanner</h3>
+                        <p>Point the camera at a card to find it. Recognition runs entirely on the iPhone with Apple Vision. Batch mode adds a whole stack in one go.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Share your progress</h3>
+                        <p>Generate a clean image of a set's completion with your best cards, ready for social media.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>English and French</h3>
+                        <p>Interface and collection language in English or French, with backup and restore of your collection (JSON, CSV).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="alt">
+            <div class="wrap">
+                <h2>Screenshots</h2>
+                <p class="section-lead">Captured from the current development build.</p>
+                <div class="gallery">
+                    <figure>
+                        <img class="phone" src="images/set.jpg" alt="Set detail with completion, value and card list" loading="lazy">
+                        <figcaption><strong>A set at a glance</strong>Completion, value and every card with its owned versions.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="phone" src="images/binder.jpg" alt="Binder view of a set, owned cards in color and missing cards greyed out" loading="lazy">
+                        <figcaption><strong>Binder view</strong>Owned cards in color, missing cards as silhouettes.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="phone" src="images/card.jpg" alt="Card page with official art, version picker and price" loading="lazy">
+                        <figcaption><strong>Card page</strong>Standard or foil, price, condition, quantity and notes.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="phone" src="images/stats.jpg" alt="Statistics with total value and weekly price changes" loading="lazy">
+                        <figcaption><strong>Statistics</strong>Total value and this week's price changes on your cards.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="phone" src="images/share.jpg" alt="Shareable progress image for a set" loading="lazy">
+                        <figcaption><strong>Progress image</strong>A shareable picture of your set completion.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="phone" src="images/collection.jpg" alt="Collection screen with all sets" loading="lazy">
+                        <figcaption><strong>All your sets</strong>Newest releases first, each with its own color.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrap">
+                <h2>How it works</h2>
+                <p class="section-lead">The typical user flow.</p>
+                <ol class="flow">
+                    <li>On first launch, the app downloads the Riftbound card catalog, then works offline.</li>
+                    <li>The player opens a set and adds the cards they own, from the list, the binder, the search or the camera scanner.</li>
+                    <li>For each card they choose the version (standard or foil), condition, language and quantity.</li>
+                    <li>The app shows completion per set, the value of the collection and the week's price changes.</li>
+                    <li>The player can share a progress image or export a backup of their collection.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="alt">
+            <div class="wrap">
+                <h2>Data and privacy</h2>
+                <div class="facts">
+                    <div class="feature">
+                        <h3>What stays on the iPhone</h3>
+                        <ul>
+                            <li>The whole collection, stored locally.</li>
+                            <li>Camera frames and card recognition: processed on the device, never uploaded.</li>
+                            <li>No account, no analytics, no advertising identifiers.</li>
+                        </ul>
+                    </div>
+                    <div class="feature">
+                        <h3>What the app downloads</h3>
+                        <ul>
+                            <li>Riftbound card catalog, official card art and text (moving to the official Riot Games API).</li>
+                            <li>Market prices, at most once a day, cached on the device.</li>
+                            <li>The app never redistributes this data to third parties.</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="section-lead" style="margin-top: 28px;">Read the full <a href="privacy.html">privacy policy</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div class="links">
+                <a href="privacy.html">Privacy policy</a>
+                <a href="fr/" hreflang="fr" lang="fr">Version française</a>
+                <a href="https://github.com/eeverywhereedv/rifttracker-site/issues">Contact</a>
+            </div>
+            <p>RiftTracker was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
+            <p>Riftbound card names, text and artwork © Riot Games. Price data: Cardmarket, TCGplayer (via dotGG).</p>
+        </div>
+    </footer>
+</body>
+</html>
