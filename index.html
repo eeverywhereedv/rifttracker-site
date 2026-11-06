@@ -23,7 +23,7 @@
                     <span class="status">In development · coming to the App Store (iPhone, iOS 18+)</span>
                 </div>
                 <div class="hero-shot">
-                    <img class="phone" src="images/home-dark.jpg" alt="RiftTracker home screen in dark mode: overall completion ring and a colored tile for each Riftbound set">
+                    <img class="phone" src="images/home-dark.jpg" alt="RiftTracker home screen in dark mode: completion ring of the sets you started, Sets and Extras tabs and a colored tile for each Riftbound set">
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
                 <div class="features">
                     <div class="feature">
                         <h3>Set completion</h3>
-                        <p>See how many cards of each set you own, in the language you collect, which ones are missing and what it would cost to finish the set. An optional master set mode counts standard and foil versions separately.</p>
+                        <p>See how many cards of each set you own, in the language you collect, which ones are missing and what it would cost to finish the set. An optional master set mode counts standard and foil versions separately. Main sets and extras (promos, Proving Grounds, box sets) have their own tabs, and the sets you don't follow fold away.</p>
                     </div>
                     <div class="feature">
                         <h3>Binder view</h3>
@@ -69,8 +69,12 @@
                 <p class="section-lead">Captured from the current development build.</p>
                 <div class="gallery">
                     <figure>
-                        <img class="phone" src="images/collection.jpg" alt="Collection screen with the overall completion ring and a tile for each set" loading="lazy">
-                        <figcaption><strong>All your sets</strong>Overall completion, then each set in its own color, newest first.</figcaption>
+                        <img class="phone" src="images/collection.jpg" alt="Collection screen with the completion ring of the sets you started, Sets and Extras tabs and a tile for each set" loading="lazy">
+                        <figcaption><strong>All your sets</strong>Your progress in the sets you started, then each set in its own color; extras in their own tab.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="phone" src="images/onboarding.jpg" alt="First launch screen listing the sets to follow, with a checkbox for each main set and extra" loading="lazy">
+                        <figcaption><strong>First launch</strong>A few questions while the catalog downloads: card language, prices, how you collect and the sets you follow.</figcaption>
                     </figure>
                     <figure>
                         <img class="phone" src="images/set.jpg" alt="Set detail with a colored header showing completion and value, then the card list" loading="lazy">
@@ -96,10 +100,6 @@
                         <img class="phone" src="images/stats.jpg" alt="Statistics with the collection value over the last 30 days and a podium of the three most valuable cards" loading="lazy">
                         <figcaption><strong>Statistics</strong>Your collection's value over time and your three most valuable cards.</figcaption>
                     </figure>
-                    <figure>
-                        <img class="phone" src="images/share.jpg" alt="Shareable progress image for a set" loading="lazy">
-                        <figcaption><strong>Progress image</strong>A shareable picture of your set completion.</figcaption>
-                    </figure>
                 </div>
             </div>
         </section>
@@ -109,7 +109,7 @@
                 <h2>How it works</h2>
                 <p class="section-lead">The typical user flow.</p>
                 <ol class="flow">
-                    <li>On first launch, the app downloads the Riftbound card catalog, then works offline.</li>
+                    <li>On first launch, a short welcome asks for the card language, the price source, how the player collects and which sets they follow, while the app downloads the Riftbound card catalog. It then works offline.</li>
                     <li>The player opens a set and adds the cards they own, from the list, the binder, the search or the camera scanner.</li>
                     <li>For each card they choose the version (standard or foil), condition, language and quantity.</li>
                     <li>The app shows completion per set, the value of the collection and the week's price changes.</li>
